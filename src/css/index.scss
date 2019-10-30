@@ -1,5 +1,14 @@
+//custom variables
+$blue: #243e56;
+$light-blue: #486784;
+
+@import "./components/avatar.scss";
+@import "./components/blue-banner.scss";
+@import "./components/personal-info.scss";
+
 body {
   margin: 0;
+  width: 100vw;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
