@@ -18,7 +18,6 @@ const ProjectCarousel = props => {
     props.setIsFullCarousel(true);
   };
 
-  // const hasButtons = props.isFullCarousel ? "" : "no-buttons";
   const isFullScreen = props.isFullCarousel ? "full-carousel" : "";
 
   const items = props.gallery.map(img => (

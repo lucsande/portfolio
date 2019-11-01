@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import ProjectCarousel from "./ProjectCarousel";
-import FullCarousel from "./FullCarousel";
 
 const Project = props => {
   const [isFullCarousel, setIsFullCarousel] = useState(false);
@@ -26,18 +25,11 @@ const Project = props => {
       </div>
       <div className={`project-body text-secondary ${isHidden}`}>
         <p className="project-subtitle">Screenshots gallery</p>
-        {/* <div onClick={() => setIsFullCarousel(true)}> */}
         <ProjectCarousel
           gallery={props.project.gallery}
           isFullCarousel={isFullCarousel}
           setIsFullCarousel={setIsFullCarousel}
         />
-        {/* </div> */}
-        {/* <FullCarousel
-          gallery={props.project.gallery}
-          isFullCarousel={isFullCarousel}
-          setIsFullCarousel={setIsFullCarousel}
-        /> */}
         <p className="project-subtitle">Description</p>
         <p>{props.project.description}</p>
         <p className="project-subtitle">Main challenges</p>
