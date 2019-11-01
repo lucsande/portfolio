@@ -1,10 +1,17 @@
+// #landing {
+//   position: absolute;
+// }
+
 #blue-banner {
   // background-color: $blue;
   background-image: linear-gradient(to left, $light-blue 0%, $blue 60%);
   color: white;
   padding: 3rem 0 0 0;
   min-height: 100vh;
-  width: 100%;
+  width: calc(100vw - 350px);
+  // flex-grow: 1;
+  // max-width: 100%;
+  // width: 100%;
 
   h2 {
     margin-bottom: 1.5rem;
@@ -20,18 +27,6 @@
   margin: 3rem 0 1rem;
 }
 
-#tags {
-  margin: 0;
-}
-
-.tag {
-  border: solid 1px white;
-  padding: 5px;
-  margin: 3px;
-  border-radius: 5px;
-  font-size: 0.85rem;
-}
-
 #landing-extra-info {
   margin: 3rem 0;
 
@@ -44,19 +39,4 @@
 
 #landing-buttons {
   margin: 1rem 0;
-
-  .button {
-    color: $blue;
-    background-color: white;
-    border-radius: 5px;
-    padding: 7px;
-    margin: 5px;
-    width: 7rem;
-    text-align: center;
-    cursor: pointer;
-  }
-
-  .button:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-  }
 }

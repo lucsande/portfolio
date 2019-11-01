@@ -1,0 +1,27 @@
+.scroll-enter {
+  position: absolute;
+  top: 100vh;
+}
+
+.scroll-enter.scroll-enter-active {
+  position: absolute;
+  top: 0vh;
+
+  transition: 2s ease-in-out;
+}
+
+.scroll-exit {
+  position: absolute;
+  bottom: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.scroll-exit.scroll-exit-active {
+  position: absolute;
+  bottom: 100vh;
+  height: 100vh;
+  overflow: hidden;
+
+  transition: 2s ease-in-out;
+}

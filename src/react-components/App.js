@@ -1,10 +1,16 @@
-import React, { useState } from "react";
-import LandingPage from "./LandingPage";
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 
-const App = params => {
-  const [page, setPage] = useState("landing");
+import Container from "./Container";
 
-  return [<LandingPage />];
+const App = () => {
+  return (
+    <Router>
+      <React.Fragment>
+        <Container />
+      </React.Fragment>
+    </Router>
+  );
 };
 
 export default App;

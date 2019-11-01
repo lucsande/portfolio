@@ -1,0 +1,25 @@
+.nav-tabs {
+  display: flex;
+  justify-content: flex-end;
+  border: none;
+}
+
+.nav-tab {
+  color: $blue;
+  background-color: rgb(180, 180, 180);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 7px;
+  margin: 0 0 0 2px;
+  width: 7rem;
+  text-align: center;
+  cursor: pointer;
+}
+.active-tab {
+  background-color: white;
+}
+
+.nav-tab:hover {
+  background-color: white;
+  text-decoration: none;
+}

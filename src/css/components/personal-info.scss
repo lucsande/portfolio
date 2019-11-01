@@ -1,17 +1,21 @@
 #personal-info {
-  color: $light-blue;
-  margin: 3rem 3rem 0 2rem;
-  width: 400px;
+  background-color: white;
+  padding: 3rem 3rem 0 2rem;
+  width: 350px;
+  // min-width: 250px;
+  // max-width: 350px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 
   i {
     font-size: 1.2rem;
+    opacity: 0.9;
   }
 
   p,
   a {
     margin: 0.5rem 0.5rem 0 0;
+    color: $blue;
   }
 }

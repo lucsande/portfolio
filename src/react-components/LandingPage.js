@@ -1,27 +1,29 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ProfilePic from "../pictures/foto lucas cor.jpg";
 
-const LandingPage = params => {
+const LandingPage = props => {
   return (
     <div>
-      <div className="d-flex">
+      <div id="landing" className="d-flex">
         <div id="personal-info">
           <img src={ProfilePic} alt="Lucas smiling" className="avatar" />
           <div id="avatar-overlay"></div>
           <p>
-            São Paulo - Brazil <i class="fi-snsuxl-map-marker-solid"></i>
+            São Paulo - Brazil <i className="fi-snsuxl-map-marker-solid"></i>
           </p>
           <p>
-            lucas.sandeville@gmail.com<i class="fi-xwsuxl-envelope-solid"></i>
+            lucas.sandeville@gmail.com
+            <i className="fi-xwsuxl-envelope-solid"></i>
           </p>
           <p>
-            +55 11 97127-1854 <i class="fi-snsuxl-phone-solid"></i>
+            +55 11 97127-1854 <i className="fi-snsuxl-phone-solid"></i>
           </p>
           <a href="https://www.linkedin.com/in/lucas-coelho-sandeville-11493813b/">
-            link to profile <i className="fi-snsuxl-linkedin"></i>
+            LinkedIn <i className="fi-snsuxl-linkedin"></i>
           </a>
           <a href="https://github.com/lucsande">
-            link to profile <i className="fi-snsuxl-github-alt"></i>
+            GitHub <i className="fi-snsuxl-github-alt"></i>
           </a>
         </div>
         <div id="blue-banner">
@@ -55,10 +57,31 @@ const LandingPage = params => {
             <div id="landing-extra-info">
               <hr></hr>
               <p>And for knowing me better:</p>
-              <div id="landing-buttons" class="d-flex justify-content-center">
-                <p className="button">Pros/Cons</p>
-                <p className="button">Projects</p>
-                <p className="button">CV</p>
+              <div
+                id="landing-buttons"
+                className="d-flex justify-content-center"
+              >
+                <Link
+                  to="/info"
+                  className="button"
+                  onClick={() => props.setTab("why")}
+                >
+                  Why me?
+                </Link>
+                <Link
+                  to="/info"
+                  className="button"
+                  onClick={() => props.setTab("projects")}
+                >
+                  Projects
+                </Link>
+                <Link
+                  to="/info"
+                  className="button"
+                  onClick={() => props.setTab("cv")}
+                >
+                  CV
+                </Link>
               </div>
             </div>
           </div>

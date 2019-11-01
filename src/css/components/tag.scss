@@ -1,0 +1,27 @@
+#tags {
+  margin: 0;
+}
+
+.tag {
+  border: solid 1px white;
+  padding: 5px;
+  margin: 3px;
+  border-radius: 5px;
+  font-size: 0.85rem;
+}
+
+.project-tags {
+  display: flex;
+  color: rgb(100, 100, 100);
+  margin-top: 1rem;
+}
+
+.sm-tag {
+  border: solid 1px rgb(150, 150, 150);
+  opacity: 0.9;
+  padding: 4px;
+  margin: 1px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}

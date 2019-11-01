@@ -1,0 +1,51 @@
+.project-header {
+  padding-top: 1rem;
+
+  hr {
+    margin-top: 2rem;
+  }
+
+  h6 {
+    font-size: 1.4rem;
+    margin-bottom: 0.3rem;
+  }
+
+  a {
+    color: $light-blue;
+    font-size: 1rem;
+    margin-top: 0;
+  }
+
+  .project-subtitle {
+    font-weight: 900;
+    color: rgb(50, 50, 50);
+    margin: 1.5rem 0 0.5rem;
+  }
+}
+
+.details-btn {
+  cursor: pointer;
+  color: $lighter-blue;
+  border: $lighter-blue 1px solid;
+  border-radius: 5px;
+  margin-bottom: 0;
+  padding: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+
+  &:hover {
+    background-color: $lighter-blue;
+    color: white;
+  }
+}
+
+.project-body {
+  max-height: 1000px;
+  // transition: 0.5s;
+}
+
+.project-hidden {
+  max-height: 1px;
+  overflow: hidden;
+  transition: 0.75s;
+}

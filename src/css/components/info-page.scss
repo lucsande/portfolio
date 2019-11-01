@@ -1,0 +1,12 @@
+.info-page {
+  // background-color: $blue;
+  background-image: radial-gradient(circle, $light-blue 30%, $blue 80%);
+
+  min-height: 100vh;
+  width: 100vw;
+  padding: 30px 0 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
