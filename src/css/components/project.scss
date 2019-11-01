@@ -41,11 +41,12 @@
 
 .project-body {
   max-height: 1000px;
-  // transition: 0.5s;
+  opacity: 1;
+  transition: 1s;
 }
 
 .project-hidden {
   max-height: 1px;
+  opacity: 0;
   overflow: hidden;
-  transition: 0.75s;
 }

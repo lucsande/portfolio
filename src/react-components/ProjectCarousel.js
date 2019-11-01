@@ -10,6 +10,17 @@ const ProjectCarousel = props => {
     setDirection(e.direction);
   };
 
+  const handleClick = () => {
+    if (props.isFullCarousel) {
+      return;
+    }
+
+    props.setIsFullCarousel(true);
+  };
+
+  // const hasButtons = props.isFullCarousel ? "" : "no-buttons";
+  const isFullScreen = props.isFullCarousel ? "full-carousel" : "";
+
   const items = props.gallery.map(img => (
     <Carousel.Item>
       <img className="d-block w-100" src={img} alt="project slide" />
@@ -17,9 +28,22 @@ const ProjectCarousel = props => {
   ));
 
   return (
-    <Carousel activeIndex={index} direction={direction} onSelect={handleSelect}>
-      {items}
-    </Carousel>
+    <div className={`carousel-outer-container ${isFullScreen}`}>
+      <div className="carousel-inner-container">
+        <div
+          className="carousel-backdrop"
+          onClick={() => props.setIsFullCarousel(false)}
+        ></div>
+        <Carousel
+          activeIndex={index}
+          direction={direction}
+          onSelect={handleSelect}
+          onClick={handleClick}
+        >
+          {items}
+        </Carousel>
+      </div>
+    </div>
   );
 };
 

@@ -13,7 +13,10 @@ const FullCarousel = props => {
         onClick={() => props.setIsFullCarousel(false)}
       ></div>
       <div className="full-carousel">
-        <ProjectCarousel gallery={props.gallery} />
+        <ProjectCarousel
+          gallery={props.gallery}
+          isFullCarousel={props.isFullCarousel}
+        />
       </div>
     </div>
   );
