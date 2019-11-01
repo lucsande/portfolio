@@ -7,7 +7,7 @@ import LandingPage from "./LandingPage";
 import MoreInfo from "./MoreInfo";
 
 const Container = ({ location }) => {
-  const [tab, setTab] = useState("why");
+  const [tab, setTab] = useState("cv");
 
   return (
     <TransitionGroup>

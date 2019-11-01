@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import WhyMe from "./WhyMe";
 import Projects from "./Projects";
+import CV from "./CV";
 
 const MoreInfo = props => {
   return (
@@ -37,6 +38,7 @@ const MoreInfo = props => {
         <div className="info-card p-4">
           <WhyMe tab={props.tab} />
           <Projects tab={props.tab} />
+          <CV tab={props.tab} />
         </div>
       </div>
     </div>
