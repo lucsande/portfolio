@@ -1,0 +1,14 @@
+#navbar {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  padding: 1.5rem 2.5rem 0;
+  p {
+    margin: 0;
+  }
+
+  #nav-text {
+    opacity: 0;
+    transition: 1s;
+  }
+}

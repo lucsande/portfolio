@@ -3,24 +3,27 @@ $blue: #243e56;
 $light-blue: #486784;
 $lighter-blue: rgb(131, 151, 170);
 
-@import "./components/avatar.scss";
-@import "./components/blue-banner.scss";
-@import "./components/button.scss";
-@import "./components/carousel.scss";
-@import "./components/cv.scss";
-@import "./components/info-card.scss";
-@import "./components/info-page.scss";
-@import "./components/nav-tab.scss";
-@import "./components/page-transitions.scss";
-@import "./components/personal-info.scss";
-@import "./components/project.scss";
-@import "./components/tag.scss";
+@import "./components-v1/avatar.scss";
+@import "./components-v1/blue-banner.scss";
+@import "./components-v1/button.scss";
+@import "./components-v1/carousel.scss";
+@import "./components-v1/cv.scss";
+@import "./components-v1/info-card.scss";
+@import "./components-v1/info-page.scss";
+@import "./components-v1/nav-tab.scss";
+@import "./components-v1/page-transitions.scss";
+@import "./components-v1/personal-info.scss";
+@import "./components-v1/project.scss";
+@import "./components-v1/tag.scss";
+
+@import "./components-v2/home.scss";
+@import "./components-v2/navbar.scss";
 
 body {
-  background-color: $blue;
+  // background-color: $blue;
   margin: 0;
   max-width: 100vw;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
