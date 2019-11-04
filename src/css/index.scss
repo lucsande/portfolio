@@ -3,7 +3,7 @@ $dark-blue: #0d2133;
 $blue: #243e56;
 $light-blue: #486784;
 $lighter-blue: rgb(131, 151, 170);
-$content-padding: 12rem 2rem 5rem;
+$content-padding: 10rem 2rem 5rem;
 
 @import "./components-v1/avatar.scss";
 @import "./components-v1/blue-banner.scss";
@@ -22,6 +22,7 @@ $content-padding: 12rem 2rem 5rem;
 @import "./components-v2/home.scss";
 @import "./components-v2/navbar.scss";
 @import "./components-v2/project.scss";
+@import "./components-v2/thumbnail.scss";
 @import "./components-v2/why-me.scss";
 
 #version-2 {

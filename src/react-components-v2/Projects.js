@@ -3,12 +3,21 @@ import projectsList from "../projectsList";
 import Project from "./Project";
 
 const Projects = props => {
-  const [visibleProject, setVisibleProject] = useState("Buddysteps");
+  const [visibleProject, setVisibleProject] = useState("");
+
+  const changeVisibleProject = projID => {
+    const projContent = document.querySelector(`#${projID}`);
+
+    setVisibleProject(projID);
+    setTimeout(() => {
+      projContent.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 200);
+  };
 
   const thumbnails = () => {
     return Object.keys(projectsList).map(proj => (
       <div
-        onClick={() => setVisibleProject(projectsList[`${proj}`].title)}
+        onClick={() => changeVisibleProject(projectsList[`${proj}`].id)}
         className="col-6 col-md-4 p-0"
       >
         <div>
@@ -40,18 +49,20 @@ const Projects = props => {
   };
 
   return (
-    <div id="projects" className="">
-      <h2 className="font-weight-bold">Projects</h2>
-      <h3 className="font-weight-lighter">
-        Some of my favorites from all the stuff I've made.
-      </h3>
-      <div className="row justify-content-center">
-        <div id="projects-thumbnails" className="row">
-          {thumbnails()}
+    <React.Fragment>
+      <div id="projects" className="hidden-content">
+        <h2 className="font-weight-bold">Projects</h2>
+        <h3 className="font-weight-lighter">
+          Some of my favorites from all the stuff I've made.
+        </h3>
+        <div className="row justify-content-center">
+          <div id="projects-thumbnails" className="row">
+            {thumbnails()}
+          </div>
         </div>
       </div>
       {projects()}
-    </div>
+    </React.Fragment>
   );
 };
 

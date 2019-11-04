@@ -39,6 +39,7 @@ const tags = [
 
 const projectsList = {
   buddysteps: {
+    id: "buddysteps",
     title: "Buddysteps",
     url: "https://buddysteps.com/",
     tags: [
@@ -63,6 +64,7 @@ const projectsList = {
     gallery: [Buddy0, Buddy1, Buddy2, Buddy3, Buddy4, Buddy5, Buddy6]
   },
   meucaixa: {
+    id: "meucaixa",
     title: "MeuCaixa",
     url: "https://teste-caixa-eletronico.herokuapp.com/",
     tags: [
@@ -83,6 +85,7 @@ const projectsList = {
     gallery: [MeuCaixa0, MeuCaixa1, MeuCaixa2, MeuCaixa3]
   },
   cadedoutor: {
+    id: "cadedoutor",
     title: "Cadê Doutor",
     url: "http://cade-doutor.herokuapp.com/",
     tags: [
@@ -110,6 +113,7 @@ const projectsList = {
     ]
   },
   vanilla: {
+    id: "vanilla",
     title: "Vanilla One-Page-App",
     url: "https://vanilla-opa.herokuapp.com",
     tags: [
@@ -128,6 +132,7 @@ const projectsList = {
     gallery: [Vanilla0, Vanilla1, Vanilla2]
   },
   cavani: {
+    id: "cavani",
     title: "Cavani Arquitetos",
     url: "http://www.cavaniarquitetos.com.br/",
     tags: ["Frontend", "Squarespace", "CSS"],
