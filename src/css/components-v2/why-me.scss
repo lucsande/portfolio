@@ -1,0 +1,28 @@
+#why-me {
+  padding: $content-padding;
+
+  h3 {
+    margin: 2rem 0 0 5rem;
+    text-align: right;
+    max-width: 35rem;
+  }
+
+  ul {
+    margin: 7rem 0 0 0rem;
+    list-style-type: none;
+    max-width: 35rem;
+  }
+
+  li {
+    color: $blue;
+    line-height: 1.3rem;
+    font-weight: 300;
+  }
+}
+
+.hidden-content {
+  padding: 0 !important;
+  opacity: 0;
+  max-height: 0px;
+  overflow: hidden;
+}

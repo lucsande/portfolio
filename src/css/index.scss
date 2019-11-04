@@ -1,7 +1,9 @@
 //custom variables
+$dark-blue: #0d2133;
 $blue: #243e56;
 $light-blue: #486784;
 $lighter-blue: rgb(131, 151, 170);
+$content-padding: 12rem 2rem 5rem;
 
 @import "./components-v1/avatar.scss";
 @import "./components-v1/blue-banner.scss";
@@ -16,27 +18,34 @@ $lighter-blue: rgb(131, 151, 170);
 @import "./components-v1/project.scss";
 @import "./components-v1/tag.scss";
 
+@import "./components-v2/content.scss";
 @import "./components-v2/home.scss";
 @import "./components-v2/navbar.scss";
+@import "./components-v2/project.scss";
+@import "./components-v2/why-me.scss";
 
-body {
-  // background-color: $blue;
-  margin: 0;
-  max-width: 100vw;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  overflow: -moz-scrollbars-none;
-  -ms-overflow-style: none;
-}
+#version-2 {
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
 
-body::-webkit-scrollbar {
-  width: 0 !important;
-}
+  body {
+    // background-color: $blue;
+    margin: 0;
+    max-width: 100vw;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  body::-webkit-scrollbar {
+    width: 0 !important;
+  }
 }

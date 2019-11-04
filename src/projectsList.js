@@ -83,7 +83,7 @@ const projectsList = {
     gallery: [MeuCaixa0, MeuCaixa1, MeuCaixa2, MeuCaixa3]
   },
   cadedoutor: {
-    title: "Cade Doutor",
+    title: "Cadê Doutor",
     url: "http://cade-doutor.herokuapp.com/",
     tags: [
       "Fullstack",
@@ -110,7 +110,7 @@ const projectsList = {
     ]
   },
   vanilla: {
-    title: "Vanilla One-Page-App Study",
+    title: "Vanilla One-Page-App",
     url: "https://vanilla-opa.herokuapp.com",
     tags: [
       "Fullstack",

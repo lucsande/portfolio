@@ -4,28 +4,23 @@ const Banner = props => {
   useEffect(() => {
     const title = document.querySelector("h2");
     const subtitle = document.querySelector("h3");
-    const skillsetTitle = document.querySelector(".skillset-title");
     const buttons = document.querySelector("#home-btns");
 
     setTimeout(() => {
-      title.style["opacity"] = "1";
-    }, 1200);
-
-    setTimeout(() => {
       subtitle.style["opacity"] = "1";
-    }, 1400);
+    }, 400);
 
     setTimeout(() => {
       buttons.style["opacity"] = "1";
-    }, 1700);
-
-    setTimeout(() => {
-      skillsetTitle.style["opacity"] = "1";
-    }, 2700);
+    }, 700);
 
     setTimeout(() => {
       showTags();
-    }, 2900);
+    }, 1200);
+
+    setTimeout(() => {
+      title.style["opacity"] = "1";
+    }, 2200);
   }, []);
 
   const showTags = () => {
@@ -36,13 +31,20 @@ const Banner = props => {
     tags.forEach(tag => {
       setTimeout(() => {
         tag.style["opacity"] = "1";
-      }, 100 * counter);
+      }, 50 * counter);
       counter++;
     });
 
     setTimeout(() => {
       specialTag.style["opacity"] = "1";
-    }, 100 * counter);
+    }, 50 * counter);
+  };
+
+  const showContent = id => {
+    const content = document.querySelector(id);
+
+    content.classList.remove("hidden-content");
+    content.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   return (
@@ -54,7 +56,6 @@ const Banner = props => {
             <h3 className="font-weight-light">If it's code, I'm in.</h3>
           </div>
         </div>
-        <p className="font-weight-lighter skillset-title">My skillset:</p>
         <div
           className="row justify-content-md-start mr-0 mt-2 align-content-end"
           id="home-tags"
@@ -80,12 +81,15 @@ const Banner = props => {
           id="home-btns"
           className="d-flex mr-0 justify-content-around align-items-center"
         >
-          {/* <p onClick={showSkillset} className="home-btn">
-                Skillset
-              </p> */}
-          <p className="home-btn">Why me?</p>
-          <p className="home-btn">Projects</p>
-          <p className="home-btn">Resume</p>
+          <p onClick={() => showContent("#why-me")} className="home-btn">
+            Why me?
+          </p>
+          <p onClick={() => showContent("#projects")} className="home-btn">
+            Projects
+          </p>
+          <p onClick={() => showContent("#resume")} className="home-btn">
+            Resume
+          </p>
         </div>
       </div>
     </div>

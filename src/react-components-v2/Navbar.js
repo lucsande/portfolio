@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 const Navbar = props => {
   useEffect(() => {
-    const navText = document.querySelector("#nav-text");
+    const navText = document.querySelector("#navbar");
 
     setTimeout(() => {
       navText.style["opacity"] = "1";

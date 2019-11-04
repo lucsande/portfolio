@@ -7,39 +7,11 @@
   margin-top: 6rem;
   color: white;
 
-  h2 {
-    font-size: 3rem;
-    opacity: 0;
-    transition: 2s ease-in;
-  }
+  h2,
   h3 {
-    font-size: 2rem;
     opacity: 0;
     transition: 2s ease-in;
   }
-}
-
-.skillset-title {
-  margin: 2rem -1rem 0;
-  opacity: 0;
-  transition: 1s ease-in;
-}
-
-#home-btns {
-  margin: 0 -1rem 4rem;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  max-width: 22rem;
-  opacity: 0;
-  transition: 1s ease-in;
-}
-
-.home-btn {
-  cursor: pointer;
-  padding: 1.2rem 1rem;
-  text-align: center;
-  margin: 0;
-  min-height: 100%;
 }
 
 #home-tags {
@@ -58,5 +30,22 @@
   font-weight: 900;
   margin: 1rem 0 3rem;
   opacity: 0;
-  transition: 3s ease-in;
+  transition: 2s ease-in;
+}
+
+#home-btns {
+  margin: 0 -1rem 4rem;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  max-width: 24.5rem;
+  opacity: 0;
+  transition: 1s ease-in;
+}
+
+.home-btn {
+  cursor: pointer;
+  padding: 1.2rem 1rem;
+  text-align: center;
+  margin: 0;
+  min-height: 100%;
 }
