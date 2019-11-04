@@ -14,6 +14,14 @@ const FixedNavbar = props => {
     });
   }, []);
 
+  const scrollToTop = () => {
+    const c = document.documentElement.scrollTop || document.body.scrollTop;
+    if (c > 0) {
+      window.requestAnimationFrame(scrollToTop);
+      window.scrollTo(0, c - c / 8);
+    }
+  };
+
   const showContent = id => {
     const content = document.querySelector(id);
 
@@ -30,7 +38,7 @@ const FixedNavbar = props => {
       className="navbar fixed-top"
       id="fixed-navbar"
     >
-      <div id="nav-text">
+      <div onClick={scrollToTop} id="nav-text">
         <p className="font-weight-bold">Lucas Sandeville</p>
         <p className="font-weight-light">Fullstack Web Developer</p>
       </div>

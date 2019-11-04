@@ -17,10 +17,10 @@ const Project = props => {
         </a>
         <p className="project-section">Stack</p>
         <p>{props.project.stack}</p>
-        <p className="project-section">Description</p>
-        <p>{props.project.description}</p>
         <p className="project-section">Main challenges</p>
         <p>{props.project.challenges}</p>
+        <p className="project-section">Description</p>
+        <p>{props.project.description}</p>
         <br />
         <ProjectCarousel
           gallery={props.project.gallery}

@@ -60,7 +60,7 @@ const projectsList = {
      goals, keep a diary with her achievements and frustrations, join a
      community with people with the same illness and chat with other users.`,
     challenges: `This project's main challenges were creating the mood graph and making the
-      chat work instantly. We also take great care in making everything
+      chat work instantly. We also took great care in making everything
       mobile-friendly.`,
     gallery: [Buddy0, Buddy1, Buddy2, Buddy3, Buddy4, Buddy5, Buddy6]
   },
@@ -147,7 +147,7 @@ const projectsList = {
       very simple, just using a Squarespace template and customising its CSS, but this is the project that got me 
       interested in web development so it has special meaning for me.`,
     challenges: `The main challenges were understanding how Squarespace works and learning enough HTML and CSS to get the
-      the job done. Looks simple now, but at the time it was enough of a challenge.`,
+      the job done. Sounds simple now, but at the time it was enough of a challenge.`,
     gallery: [Cavani0, Cavani1, Cavani2]
   }
 };
