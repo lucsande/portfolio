@@ -51,6 +51,7 @@ const projectsList = {
       "CSS",
       "Git"
     ],
+    stack: "Ruby on Rails, Javascript, PostgresSQL, HTML, CSS , Git",
     description: `Final project for Le Wagon's Fullstack Bootcamp, done in 10 days with
      three other students. Buddysteps is a platform for people going through
      recovery from an illness or accident.It allows patients to keep record
@@ -77,6 +78,7 @@ const projectsList = {
       "CSS",
       "Git"
     ],
+    stack: "React, Ruby on Rails, Javascript, PostgresSQL, HTML, CSS , Git",
     description: `Simple exercise for praticing React and its integration with an API(made with Ruby on Rails).
       This projects emulates the functioning of an ATM. Once a new account is created it's possible to draw,
       deposit and tranfer money, besides checking the bank statement.`,
@@ -97,6 +99,7 @@ const projectsList = {
       "CSS",
       "Git"
     ],
+    stack: "Ruby on Rails, Javascript, PostgresSQL, HTML, CSS , Git",
     description: `Project made as part of Le Wagon's Fullstack Bootcamp, done in 4 days with 3 other students. This 
       platform allows the user to look for doctors according to specialty, schedule consultations and review doctors. Users 
       can also register as doctors and manage their scheduled consultations. The offered consultations time slots can be 
@@ -125,6 +128,8 @@ const projectsList = {
       "CSS",
       "Git"
     ],
+    stack: "Javascript, Node.js, Express.js, HTML, CSS , Git",
+
     description: `A short exercise for practicing node.js + express and also taking the challenge of creating 
     an One Page App without using any framework like React or Vue. In this project, the user can set the quantity
      of items being displayed and set options for naming the items as  A or B.`,
@@ -136,6 +141,7 @@ const projectsList = {
     title: "Cavani Arquitetos",
     url: "http://www.cavaniarquitetos.com.br/",
     tags: ["Frontend", "Squarespace", "CSS"],
+    stack: "Squarespace, HTML, CSS",
     description: `The architecture studio where I worked had a very unpleasant website with terrible user experience. I 
       was assigned to fix it, even though I didn't have any experience with web design or web development. The project was 
       very simple, just using a Squarespace template and customising its CSS, but this is the project that got me 

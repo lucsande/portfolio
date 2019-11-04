@@ -15,7 +15,8 @@ const Project = props => {
         <a href={props.project.url} rel="noopener noreferrer" target="_blank">
           {props.project.url}
         </a>
-
+        <p className="project-section">Stack</p>
+        <p>{props.project.stack}</p>
         <p className="project-section">Description</p>
         <p>{props.project.description}</p>
         <p className="project-section">Main challenges</p>

@@ -20,10 +20,10 @@ const Container = ({ location }) => {
       >
         <Switch location={location}>
           <Route exact path="/">
-            <LandingPage setTab={setTab} />
-          </Route>
-          <Route exact path="/home">
             <Home setTab={setTab} />
+          </Route>
+          <Route exact path="/landing">
+            <LandingPage setTab={setTab} />
           </Route>
           <Route path="/info">
             <MoreInfo setTab={setTab} tab={tab} />

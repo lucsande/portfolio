@@ -34,7 +34,9 @@ const ProjectCarousel = props => {
   ));
 
   return (
-    <div className={`carousel-outer-container ${isFullScreen}`}>
+    <div
+      className={`carousel-outer-container border shadow-sm ${isFullScreen}`}
+    >
       <div className="carousel-inner-container">
         <div className="carousel-backdrop" onClick={handleBackdropClick}></div>
         <Carousel

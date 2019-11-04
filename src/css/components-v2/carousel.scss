@@ -14,8 +14,7 @@
   position: fixed;
   left: 0;
   top: 0;
-  // width: vw;
-  // height: vh;
+  z-index: 500;
   cursor: default;
 
   .carousel-inner-container {
@@ -37,9 +36,10 @@
     transition: 0.5s;
     position: absolute;
   }
-  // .carousel {
-  //   // width: 70vw;
-  // }
+
+  .carousel {
+    width: 70vw;
+  }
 
   .carousel-control-next,
   .carousel-control-prev {
