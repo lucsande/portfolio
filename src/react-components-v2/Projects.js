@@ -11,7 +11,7 @@ const Projects = props => {
     setVisibleProject(projID);
     setTimeout(() => {
       projContent.scrollIntoView({ behavior: "smooth", block: "start" });
-    }, 200);
+    }, 300);
   };
 
   const thumbnails = () => {
