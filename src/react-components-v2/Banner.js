@@ -88,7 +88,7 @@ const Banner = props => {
             Projects
           </p>
           <p onClick={() => showContent("#resume")} className="home-btn">
-            Resume
+            About
           </p>
         </div>
       </div>

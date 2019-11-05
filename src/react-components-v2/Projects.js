@@ -18,16 +18,16 @@ const Projects = props => {
     return Object.keys(projectsList).map(proj => (
       <div
         onClick={() => changeVisibleProject(projectsList[`${proj}`].id)}
-        className="col-6 col-md-4 p-0"
+        className="col-6 col-md-4 p-0 border"
       >
         <div>
           <img
             src={projectsList[`${proj}`].gallery[0]}
             alt="project thumbnail"
-            className="thumbnail shadow-lg"
+            className="thumbnail"
           />
           <div className="thumb-overlay">
-            <p className="thumb-text thumb-title">
+            <p className="thumb-text thumb-title font-weight-bold">
               {projectsList[`${proj}`].title}
             </p>
             <p className="thumb-text thumb-tag">
@@ -53,7 +53,7 @@ const Projects = props => {
       <div id="projects" className="hidden-content">
         <h2 className="font-weight-bold">Projects</h2>
         <h3 className="font-weight-lighter">
-          Some of my favorites from all the stuff I've made.
+          My favorites from all the stuff I've made so far.
         </h3>
         <div className="row justify-content-center">
           <div id="projects-thumbnails" className="row">

@@ -52,8 +52,8 @@ const FixedNavbar = props => {
           <Nav.Link onClick={() => showContent("#projects")} href="#">
             Projects
           </Nav.Link>
-          <Nav.Link onClick={() => showContent("#projects")} href="#">
-            Resume
+          <Nav.Link onClick={() => showContent("#resume")} href="#">
+            About
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>

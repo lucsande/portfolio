@@ -15,9 +15,13 @@
 
   li {
     color: $blue;
-    line-height: 1.3rem;
+    // line-height: 1.3rem;
     font-weight: 300;
   }
+}
+
+.item-bold {
+  font-weight: 500;
 }
 
 .hidden-content {

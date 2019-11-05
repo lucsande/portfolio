@@ -1,7 +1,7 @@
 .avatar {
   width: 200px;
   max-height: 200px;
-  border-radius: 50%;
+  // border-radius: 50%;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   margin-bottom: 2rem;
   border: none;
@@ -11,8 +11,8 @@
 #avatar-overlay {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  // border-radius: 50%;
   position: absolute;
   background-image: radial-gradient(circle, rgba(83, 97, 185, 0.1), $blue);
-  opacity: 0.15;
+  opacity: 0;
 }

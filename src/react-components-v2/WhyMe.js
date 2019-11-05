@@ -9,22 +9,18 @@ const WhyMe = props => {
       </h3>
       <ul>
         <li>
-          <span className="font-weight-bold text-primary">
-            I have a very logical mind.
-          </span>{" "}
-          This is one of the reasons I stood out as one of the best students
-          during Le Wagon's Fullstack Bootcamp (even though my background was
-          not an obvious one for programming);
+          <span className="item-bold">I have a very logical mind.</span> This is
+          one of the reasons I stood out as one of the best students during Le
+          Wagon's Fullstack Bootcamp (even though my background was not an
+          obvious one for programming);
         </li>
         <li>
-          <span className="font-weight-bold text-primary">
-            I learn fast. And I love learning.
-          </span>{" "}
+          <span className="item-bold">I learn fast. And I love learning.</span>{" "}
           That's how I got admitted to Latin America's best university and also
           how I taught myself German, French and Spanish;
         </li>
         <li>
-          <span className="font-weight-bold text-primary">
+          <span className="item-bold">
             I think critically about the UX I implement.
           </span>{" "}
           My creative background taught me the importance of good UX and I am
@@ -32,22 +28,19 @@ const WhyMe = props => {
           discussions;
         </li>
         <li>
-          <span className="font-weight-bold text-primary">
-            I'm good at teamwork.
-          </span>{" "}
-          One of the best things I can say about myself is that most people who
-          have worked with me once, expressed a desire to do it again in the
-          future;
+          <span className="item-bold">I'm good at teamwork.</span> One of the
+          best things I can say about myself is that most people who have worked
+          with me once, expressed a desire to do it again in the future;
         </li>
         <li>
-          <span className="font-weight-bold text-primary">
+          <span className="item-bold">
             When I do something, I give it my all.
           </span>{" "}
           Former colleagues have multiple times highlighted my motivation about
           the things I do and ownership I have executing my tasks.
         </li>
         <li>
-          <span className="font-weight-bold text-primary">
+          <span className="item-bold">
             I identify knowledge gaps and fix them.
           </span>{" "}
           That's why the first thing I did after finishing Le Wagon's bootcamp
@@ -55,7 +48,7 @@ const WhyMe = props => {
           love learning.
         </li>
         <li>
-          <span className="font-weight-bold text-primary">
+          <span className="item-bold">
             I'm not afraid of new problems. Neither am I afraid of bugs.
           </span>{" "}
           I see them for what they are: an opportunity to learn something new or
