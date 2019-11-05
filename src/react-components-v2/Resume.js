@@ -62,6 +62,20 @@ const WhyMe = props => {
             </p>
           </div>
         </div>
+
+        <div className="cv-experience">
+          <h6>Technische Universität Berlin</h6>
+          <p className="cv-position">
+            Architecture and Urbanism Exchange Program
+          </p>
+          <div className="cv-details font-weight-light">
+            <p>Aug 2016 - Feb 2017</p>
+            <p>
+              Classes in both German and English on subjects ranging from
+              structural engineering to sociology
+            </p>
+          </div>
+        </div>
       </div>
 
       <div className="cv-section">
