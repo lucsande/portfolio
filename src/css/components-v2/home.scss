@@ -4,8 +4,11 @@
 }
 
 #home-banner {
-  margin-top: 6rem;
+  padding-top: 6rem;
   color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 
   h2,
   h3 {

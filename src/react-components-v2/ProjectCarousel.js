@@ -4,7 +4,8 @@ import Carousel from "react-bootstrap/Carousel";
 const ProjectCarousel = props => {
   const [index, setIndex] = useState(0);
   const [direction, setDirection] = useState(null);
-  const navBar = document.querySelector("#fixed-navbar");
+  const navBar1 = document.querySelector("#navbar");
+  const navBar2 = document.querySelector("#fixed-navbar");
 
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
@@ -15,13 +16,15 @@ const ProjectCarousel = props => {
     if (props.isFullCarousel) {
       return;
     }
-    navBar.classList.remove("fixed-top");
+    navBar1.classList.remove("fixed-top");
+    navBar2.classList.remove("fixed-top");
 
     props.setIsFullCarousel(true);
   };
 
   const handleBackdropClick = () => {
-    navBar.classList.add("fixed-top");
+    navBar1.classList.add("fixed-top");
+    navBar2.classList.add("fixed-top");
     props.setIsFullCarousel(false);
   };
 

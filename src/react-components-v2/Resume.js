@@ -3,7 +3,7 @@ import ProfilePic from "../pictures/foto lucas cor.jpg";
 
 const WhyMe = props => {
   return (
-    <p id="resume" className="">
+    <div id="resume" className="hidden-content">
       <h2 className="font-weight-bold">About</h2>
       <h3 className="font-weight-lighter">
         A short summary of what I've done and where I've been.
@@ -152,7 +152,7 @@ const WhyMe = props => {
           </div>
         </div>
       </div>
-    </p>
+    </div>
   );
 };
 

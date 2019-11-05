@@ -10,7 +10,7 @@ const Navbar = props => {
   }, []);
 
   return (
-    <div id="navbar">
+    <div id="navbar" className="fixed-top">
       <div id="nav-text">
         <p className="font-weight-bold">Lucas Sandeville</p>
         <p className="font-weight-light">Fullstack Web Developer</p>

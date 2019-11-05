@@ -18,7 +18,7 @@ const Projects = props => {
     return Object.keys(projectsList).map(proj => (
       <div
         onClick={() => changeVisibleProject(projectsList[`${proj}`].id)}
-        className="col-6 col-md-4 p-0 border"
+        className="col-12 col-md-6 p-0 border"
       >
         <div>
           <img
@@ -53,10 +53,10 @@ const Projects = props => {
       <div id="projects" className="hidden-content">
         <h2 className="font-weight-bold">Projects</h2>
         <h3 className="font-weight-lighter">
-          My favorites from all the stuff I've made so far.
+          I've made a bunch of apps so far, here are my favorite ones.
         </h3>
-        <div className="row justify-content-center">
-          <div id="projects-thumbnails" className="row">
+        <div className="row justify-content-center justify-content-md-start">
+          <div id="projects-thumbnails" className="row p-5 p-md-0 ml-0 ml-md-5">
             {thumbnails()}
           </div>
         </div>
