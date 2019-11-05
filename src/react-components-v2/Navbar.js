@@ -6,7 +6,7 @@ const Navbar = props => {
 
     setTimeout(() => {
       navText.style["opacity"] = "1";
-    }, 300);
+    }, 800);
   }, []);
 
   return (

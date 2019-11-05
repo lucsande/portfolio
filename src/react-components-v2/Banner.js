@@ -8,27 +8,25 @@ const Banner = props => {
 
     setTimeout(() => {
       subtitle.style["opacity"] = "1";
-    }, 900);
+    }, 1400);
 
     setTimeout(() => {
       buttons.style["opacity"] = "1";
-    }, 1200);
-
-    setTimeout(() => {
-      showTags();
     }, 1700);
 
     setTimeout(() => {
+      showTags();
+    }, 2200);
+
+    setTimeout(() => {
       title.style["opacity"] = "1";
-    }, 2700);
+    }, 3200);
   }, []);
 
   const showTags = () => {
     const tags = document.querySelectorAll(".regular-tag");
     const specialTag = document.querySelector(".highlight-tag");
     let counter = 1;
-
-    console.log("ersion 2");
 
     tags.forEach(tag => {
       setTimeout(() => {
