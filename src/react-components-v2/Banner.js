@@ -28,7 +28,7 @@ const Banner = props => {
     const specialTag = document.querySelector(".highlight-tag");
     let counter = 1;
 
-    console.log("new-version");
+    console.log("ersion 2");
 
     tags.forEach(tag => {
       setTimeout(() => {
