@@ -9,15 +9,11 @@ const WhyMe = props => {
       </h3>
       <ul>
         <li>
-          <span className="item-bold">I have a very logical mind.</span> This is
-          one of the reasons I stood out as one of the best students during Le
-          Wagon's Fullstack Bootcamp (even though my background was not an
-          obvious one for programming);
-        </li>
-        <li>
-          <span className="item-bold">I learn fast. And I love learning.</span>{" "}
-          That's how I got admitted to Latin America's best university and also
-          how I taught myself German, French and Spanish;
+          <span className="item-bold">I work for making a difference.</span> While 
+          working for Chiligum Creatives, I was one of the two people who came up 
+          with a solution for producing HTML banners in large scale. My contribution was
+          fundamental for Chiligum Creatives getting its biggest client ever, Nissan, 
+          and is also how I got my first promotion in the company;
         </li>
         <li>
           <span className="item-bold">
@@ -28,24 +24,29 @@ const WhyMe = props => {
           discussions;
         </li>
         <li>
+          <span className="item-bold">
+            I identify knowledge gaps and fix them.
+          </span>{" "}
+          That's why the first thing I did when I joined the Chiligum Creatives team was to start 
+          studying AWS and Docker on my free time, so I would be familiar with all techonologies 
+          being used and could make relevant contributions. And because I love learning.
+        </li>
+        <li>
           <span className="item-bold">I'm good at teamwork.</span> One of the
           best things I can say about myself is that most people who have worked
           with me once, expressed a desire to do it again in the future;
         </li>
         <li>
-          <span className="item-bold">
-            When I do something, I give it my all.
-          </span>{" "}
-          Former colleagues have multiple times highlighted my motivation about
-          the things I do and ownership I have executing my tasks.
+          <span className="item-bold">I have a very logical mind.</span> This is
+          one of the reasons I stood out as one of the best students during Le
+          Wagon's Fullstack Bootcamp (even though my background was not an
+          obvious one for programming);
         </li>
         <li>
-          <span className="item-bold">
-            I identify knowledge gaps and fix them.
-          </span>{" "}
-          That's why the first thing I did after finishing Le Wagon's bootcamp
-          was to learn React and Algorithms and Data Structures. And because I
-          love learning.
+          <span className="item-bold">I learn fast. And I love learning.</span>{" "}
+          That's how I got admitted to Latin America's best university and also
+          how I taught myself German, French and Spanish; That's also how I got started
+          with programming.
         </li>
         <li>
           <span className="item-bold">

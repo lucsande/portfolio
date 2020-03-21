@@ -8,19 +8,19 @@ const Banner = props => {
 
     setTimeout(() => {
       subtitle.style["opacity"] = "1";
-    }, 1400);
+    }, 1000);
 
     setTimeout(() => {
       buttons.style["opacity"] = "1";
-    }, 1700);
+    }, 1300);
 
     setTimeout(() => {
       showTags();
-    }, 2200);
+    }, 1800);
 
     setTimeout(() => {
       title.style["opacity"] = "1";
-    }, 3200);
+    }, 3600);
   }, []);
 
   const showTags = () => {
@@ -60,16 +60,16 @@ const Banner = props => {
           className="row justify-content-md-start mr-0 mt-2 align-content-end"
           id="home-tags"
         >
-          <p className="regular-tag">Javascript</p>
-          <p className="regular-tag">React/Redux</p>
           <p className="regular-tag">Ruby on Rails</p>
+          <p className="regular-tag">React/Redux</p>
           <p className="regular-tag">Node + Express</p>
-          <p className="regular-tag">HTML</p>
-          <p className="regular-tag">CSS + Bootstrap</p>
+          <p className="regular-tag">AWS</p>
+          <p className="regular-tag">Docker</p>
           <p className="regular-tag">PostgreSQL</p>
           <p className="regular-tag">MongoDB</p>
           <p className="regular-tag">SQL</p>
           <p className="regular-tag">Git</p>
+          <p className="regular-tag">HTML/CSS</p>
           <p className="regular-tag">Photoshop</p>
           <p className="regular-tag">Illustrator</p>
           <p className="regular-tag">InDesign</p>
@@ -88,7 +88,7 @@ const Banner = props => {
             Projects
           </p>
           <p onClick={() => showContent("#resume")} className="home-btn">
-            About
+            Resume
           </p>
         </div>
       </div>

@@ -39,6 +39,44 @@ const WhyMe = props => {
       </p>
 
       <div className="cv-section">
+        <h4>Professional experience</h4>
+
+        <div className="cv-experience">
+          <h6>Chiligum Creatives</h6>
+          <p className="cv-position">Fullstack Web Developer</p>
+          <div className="cv-details font-weight-light">
+            <p>Nov 2019 - currently</p>
+            <p className="job-desc">
+              Got first promotion in less than 4 months, with the company owners highlighting my
+              "quick technical growth and senior posture when dealing with a moment of crisis".
+            </p>
+            <p className="job-desc">
+              Constantly developing solutions for generating advertising material in
+              large scale for clients like Nissan and brazilian unicorns Loft and Ifood.
+              Main technologies used are Ruby on Rails, Sinatra, Node,
+              Javascript, AWS, Docker and GitLab.
+            </p>
+            <p className="job-desc">
+              One of the two people who developed a microservice for generating HTML banners
+              in large scale. This project was crucial for getting Nissan as a client, closing
+              the biggest contract in Chiligum Creatives' history. 
+            </p>
+            <p className="job-desc">
+              Contributed to restructuring the service responsible for creating videos in large scale.
+              We used AWS(SQS, EC2, Cloudwatch) to allow up to 20 times more videos being created
+              per hour without any server instability and also for treating eventual errors in a way
+              that wouldn't stop production.
+            </p>
+            <p className="job-desc">
+              Also contributed to improving the company's development environment, by helping
+              to implement Docker Compose to simultaneously start all microservices needed for the 
+              platform to run locally.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="cv-section">
         <h4>Educational background</h4>
 
         <div className="cv-experience">
@@ -79,43 +117,7 @@ const WhyMe = props => {
       </div>
 
       <div className="cv-section">
-        <h4>Online Courses</h4>
-
-        <div className="cv-experience">
-          <h6>JavaScript Algorithms and Data Structures Masterclass</h6>
-          <div className="cv-details font-weight-light">
-            <p>Oct 2019 - now</p>
-            <p>Course by Colt Steele - Udemy</p>
-          </div>
-        </div>
-
-        <div className="cv-experience">
-          <h6>Node with React: Fullstack Web Development</h6>
-          <div className="cv-details font-weight-light">
-            <p>Oct 2019</p>
-            <p>Course by Stephen Grider - Udemy</p>
-          </div>
-        </div>
-
-        <div className="cv-experience">
-          <h6>Complete Node.js Developer Course</h6>
-          <div className="cv-details font-weight-light">
-            <p>Oct 2019</p>
-            <p>Course by Andrew Mead e Rob Percival - Udemy</p>
-          </div>
-        </div>
-
-        <div className="cv-experience">
-          <h6>Modern React With Redux</h6>
-          <div className="cv-details font-weight-light">
-            <p>Sept 2019</p>
-            <p>Course by Stephen Grider - Udemy</p>
-          </div>
-        </div>
-      </div>
-
-      <div className="cv-section">
-        <h4>Professional Experience</h4>
+        <h4>Previous experience as an architect</h4>
 
         <div className="cv-experience">
           <h6>Cavani Arquitetos</h6>
@@ -137,31 +139,6 @@ const WhyMe = props => {
               Redesigned the studio's website, improving user experience and
               granting it a more modern appearance. The end result was praised
               by both colleagues and clients, which granted me my second raise.
-            </p>
-          </div>
-        </div>
-
-        <div className="cv-experience">
-          <h6>
-            "Seja Bem-Vindo" Short Film (Lucas Piloto's Bachelor Final Project)
-          </h6>
-          <p className="cv-position">Architecture and Urbanism Bachelor</p>
-          <div className="cv-details font-weight-light">
-            <p>Feb 2012 - Dec 2017</p>
-            <p className="job-desc">
-              Developed a house-made recipe for theatrical blood, which was
-              washable and could be produced in large quantities despite of a
-              very restricted budget. After two days of research and
-              experimenting, I came up with an original recipe that looked
-              realistic and costed less than R$15,00 per liter.
-            </p>
-            <p className="job-desc">
-              I was also responsible for searching props and figurine,
-              negotiating purchase and lending of objects and furniture, scenary
-              setup and dismantling. My good performance working on this short
-              movie yielded good ties with the others involved and well over one
-              year after it I was still getting invitations to take part in
-              other productions.
             </p>
           </div>
         </div>
