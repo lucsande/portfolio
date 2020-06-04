@@ -45,7 +45,7 @@ const WhyMe = props => {
         <li>
           <span className="item-bold">I learn fast. And I love learning.</span>{" "}
           That's how I got admitted to Latin America's best university and also
-          how I taught myself German, French and Spanish; That's also how I got started
+          how I taught myself German, French and Spanish. That's also how I got started
           with programming.
         </li>
         <li>
