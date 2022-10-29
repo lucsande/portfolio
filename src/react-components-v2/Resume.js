@@ -53,25 +53,24 @@ const WhyMe = props => {
             <p className="job-desc">
               Constantly developing solutions for generating advertising material in
               large scale for clients like Nissan and brazilian unicorns Loft and Ifood.
-              Main technologies used are Ruby on Rails, Javascript, React, Sinatra, Node,
-              AWS, Docker and GitLab.
+              Main technologies used are Ruby on Rails, Sinatra, Node,
+              Javascript, AWS, Docker and GitLab.
             </p>
             <p className="job-desc">
-              One of the two people who developed a new microservice for generating HTML banners
+              One of the two people who developed a microservice for generating HTML banners
               in large scale. This project was crucial for getting Nissan as a client, closing
               the biggest contract in Chiligum Creatives' history. 
             </p>
             <p className="job-desc">
-              Part of the team that restructured the whole company's tech architecture for scalability, security 
-              and better maintainability using microservices, cloud computing, docker and CD/CI pipelines. 
-              Our work made the company capable of creating at least 20 times more videos per hour without
-              any server instability.
+              Contributed to restructuring the service responsible for creating videos in large scale.
+              We used AWS(SQS, EC2, Cloudwatch) to allow up to 20 times more videos being created
+              per hour without any server instability and also for treating eventual errors in a way
+              that wouldn't stop production.
             </p>
             <p className="job-desc">
-              Developed a new feature that allows users to upload and manage media files (images, videos and audio) using Chiligum's GUI.
-            </p>
-            <p className="job-desc">
-              Introduced integration tests to the automated test suite.
+              Also contributed to improving the company's development environment, by helping
+              to implement Docker Compose to simultaneously start all microservices needed for the 
+              platform to run locally.
             </p>
           </div>
         </div>
@@ -79,14 +78,6 @@ const WhyMe = props => {
 
       <div className="cv-section">
         <h4>Educational background</h4>
-
-        <div className="cv-experience">
-          <h6>Rocketseat</h6>
-          <p className="cv-position">GoStack - Typescript, Node+Express, React and React Native course</p>
-          <div className="cv-details font-weight-light">
-            <p>Apr 2020 - Jun 2020</p>
-          </div>
-        </div>
 
         <div className="cv-experience">
           <h6>Le Wagon</h6>
@@ -134,17 +125,20 @@ const WhyMe = props => {
           <div className="cv-details font-weight-light">
             <p>Apr 2018 - Jul 2019</p>
             <p className="job-desc">
-              Redesigned the studio's website, improving user experience and granting it a more modern appearance.
-              The end result was praised by both colleagues and clients, which granted me my second raise.
-            </p>
-            <p className="job-desc">
-              Created project presentations using modern Adobe software. 
-              The most important of these presentations had great results and 
-              ensured the conversion of a big project with over 500 hectares.
-            </p>
-            <p className="job-desc">
               Development in multidisciplinary teams of high complexity
               architecture projects such as hospitals and big urban renewals
+            </p>
+            <p className="job-desc">
+              Created project presentations using modern tools like Photoshop,
+              Illustrator and InDesing. One of these presentations, for a
+              particularly demanding client, had great results and ensured the
+              conversion of a big project with over 500 hectares, besides
+              granting me my first raise while working in this studio.
+            </p>
+            <p className="job-desc">
+              Redesigned the studio's website, improving user experience and
+              granting it a more modern appearance. The end result was praised
+              by both colleagues and clients, which granted me my second raise.
             </p>
           </div>
         </div>
